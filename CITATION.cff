@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Distributional Consistency Loss: Beyond Pointwise Data Terms in Inverse Problems"
+authors:
+  - family-names: "Webber"
+    given-names: "George"
+  - family-names: "Reader"
+    given-names: "Andrew J."
+preferred-citation:
+  type: conference-paper
+  title: "Distributional Consistency Loss: Beyond Pointwise Data Terms in Inverse Problems"
+  authors:
+    - family-names: "Webber"
+      given-names: "George"
+    - family-names: "Reader"
+      given-names: "Andrew J."
+  year: 2026
+  conference: "International Conference on Learning Representations (ICLR)"

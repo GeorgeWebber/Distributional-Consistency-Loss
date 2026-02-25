@@ -1,0 +1,28 @@
+name: dc-loss-env
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # ── Core interpreter ───────────────────────────────────────────────
+  - python =3.11
+
+  # ── Scientific / plotting ──────────────────────────────────────────
+  - numpy =1
+  - scipy
+  - scikit-image
+  - matplotlib
+  - parallelproj
+  - cupy
+  - pillow==10.0.1
+  - pytorch
+  - torchvision
+  - array-api-compat
+
+  # ── Notebook tooling ───────────────────────────────────────────────
+  - jupyterlab
+  - ipykernel
+
+  # ── Packages that only exist on PyPI ───────────────────────────────
+  - pip
+  - pip:
+      - brainweb
