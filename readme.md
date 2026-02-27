@@ -20,6 +20,7 @@ It is most useful when:
 </figure>
 
 In this repo:
+- `src/utils/losses.py` implements the DC loss for different noise models.
 - `scripts/DIP.py` compares Deep Image Prior with MSE vs DC on natural images.
 - `python scripts/deconv.py` compares a deconvolution task with MSE vs DC. 
 - `scripts/PET.py` compares Positron Emission Tomography (PET) reconstruction with NLL, DC, and MLEM.
@@ -96,3 +97,4 @@ If you use this repository, please cite:
 ```
 
 Citation metadata is also provided in `CITATION.cff`.
+
