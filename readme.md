@@ -1,5 +1,5 @@
 # Distributional Consistency (DC) Loss
-In this repository, we provide scripts and Jupyter Notebooks to reproduce figures from our ICLR paper.
+In this repository, we provide scripts and Jupyter Notebooks to reproduce results from our ICLR paper.
 
 ## What Is DC Loss?
 
@@ -97,4 +97,14 @@ If you use this repository, please cite:
 ```
 
 Citation metadata is also provided in `CITATION.cff`.
+
+## Disclaimer
+
+This repository is provided for research and educational use only.
+
+**Not for clinical/medical use.** The DC loss methods here are not clinically validated and must not be used for diagnosis, patient management, or any medical decision-making.
+
+**Real-data use is work in progress.** Practical deployment (e.g., in PET/medical imaging) requires a well-calibrated forward model, a well-characterized noise model, and extensive technical and clinical validation (and regulatory compliance where applicable).
+
+Software is provided “as is”, without warranties or liability.
 
