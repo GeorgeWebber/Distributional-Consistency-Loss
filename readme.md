@@ -108,3 +108,7 @@ This repository is provided for research and educational use only.
 
 Software is provided “as is”, without warranties or liability.
 
+## Get in touch
+
+For questions, bug reports, or help adapting the code, contact:
+george.webber@kcl.ac.uk
