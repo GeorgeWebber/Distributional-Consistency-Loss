@@ -93,7 +93,7 @@ def get_logistic_poisson_cdf(q, m):
 
     # Compute logit values for lower and upper tails
     logit_s[lm] = m[lm] * torch.log(q[lm]) - q[lm] - torch.lgamma(m[lm]+1.)
-    logit_s[um] = q[um] - m[um] * torch.log(q[um]) + torch.lgamma(m[um]+2.)
+    logit_s[um] = q[um] - (m[um]+1) * torch.log(q[um]) + torch.lgamma(m[um]+2.)
     
     return logit_s
 
